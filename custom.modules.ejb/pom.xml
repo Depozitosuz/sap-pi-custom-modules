@@ -48,6 +48,7 @@
 			<groupId>pt.nmsc</groupId>
 			<artifactId>sap.pi.custom.modules.jpa.ejb</artifactId>
 			<version>1.0.0</version>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 

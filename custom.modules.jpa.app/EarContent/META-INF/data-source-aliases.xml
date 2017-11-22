@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<data-source-aliases 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:noNamespaceSchemaLocation="data-source-aliases.xsd">
+	<application-name>sap.pi.custom.modules.jpa.app.ear</application-name>
+	<aliases>
+		<data-source-name>${com.sap.datasource.default}</data-source-name>
+		<alias>DATASRC_ALIAS</alias>
+	</aliases>
+</data-source-aliases>
