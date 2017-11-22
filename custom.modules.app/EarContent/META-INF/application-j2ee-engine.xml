@@ -18,6 +18,9 @@
   <reference reference-type="hard">
     <reference-target provider-name="sap.com" target-type="library">com.sap.aii.af.axisproviderlib</reference-target>
   </reference>
+  <reference reference-type="hard">
+    <reference-target provider-name="sap.com" target-type="library">com.sap.aii.af.axis.lib</reference-target>
+  </reference>
   
   <reference reference-type="hard">
     <reference-target provider-name="pt.nmsc" target-type="application">sap.pi.custom.modules.jpa.app</reference-target>

@@ -50,6 +50,13 @@
 			<version>1.0.0</version>
 			<scope>provided</scope>
 		</dependency>
+		
+		<dependency>
+		    <groupId>org.apache.axis</groupId>
+		    <artifactId>axis</artifactId>
+		    <version>1.4</version>
+		    <scope>provided</scope>
+		</dependency>
 	</dependencies>
 
 </project>
