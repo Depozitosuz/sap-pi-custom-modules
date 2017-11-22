@@ -13,6 +13,17 @@
     <reference-target provider-name="sap.com" target-type="service">com.sap.aii.af.svc.facade</reference-target>
   </reference>
   <reference reference-type="hard">
+    <reference-target provider-name="sap.com" target-type="library">com.sap.aii.mapping.lib.facade</reference-target>
+  </reference>
+  <reference reference-type="hard">
     <reference-target provider-name="sap.com" target-type="library">com.sap.aii.af.axisproviderlib</reference-target>
   </reference>
+  
+  <reference reference-type="hard">
+    <reference-target provider-name="pt.nmsc" target-type="application">sap.pi.custom.modules.jpa.app</reference-target>
+  </reference>
+
+  <provider-name>pt.nmsc</provider-name>
+  <fail-over-enable mode="disable" xsi:type="fail-over-enableType_disable"/>
+
 </application-j2ee-engine>

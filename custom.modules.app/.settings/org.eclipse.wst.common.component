@@ -3,6 +3,7 @@
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/ear-resources"/>
         <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
         <dependent-module archiveName="sap.pi.custom.modules.ejb-1.0.0.jar" deploy-path="/" handle="module:/resource/sap.pi.custom.modules.ejb/sap.pi.custom.modules.ejb">
+            <dependent-object/>
             <dependency-type>uses</dependency-type>
         </dependent-module>
     </wb-module>

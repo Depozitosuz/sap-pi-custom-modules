@@ -12,7 +12,7 @@
 				<version>2.10</version>
 				<configuration>
 					<earSourceDirectory>EarContent</earSourceDirectory>
-					<generateApplicationXml>false</generateApplicationXml>
+					<generateApplicationXml>true</generateApplicationXml>
 					<version>5</version>
 					<defaultLibBundleDir>lib</defaultLibBundleDir>
 
