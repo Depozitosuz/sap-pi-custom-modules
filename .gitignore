@@ -25,6 +25,7 @@ hs_err_pid*
 # Maven
 build/
 target/
+bin/
 
 #JavaDoc
 doc/
