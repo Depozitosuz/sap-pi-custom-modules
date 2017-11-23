@@ -51,10 +51,18 @@
 			<scope>provided</scope>
 		</dependency>
 		
+		<!-- Custom dependencies present in com.sap.aii.af.axisproviderlib -->
 		<dependency>
 		    <groupId>org.apache.axis</groupId>
 		    <artifactId>axis</artifactId>
 		    <version>1.4</version>
+		    <scope>provided</scope>
+		</dependency>
+		<dependency>
+		    <groupId>org.apache.ws.security</groupId>
+		    <artifactId>wss4j</artifactId>
+		    <!-- 1.5.4 returns maven not found dependencies -->
+		    <version>1.5.5</version>
 		    <scope>provided</scope>
 		</dependency>
 	</dependencies>

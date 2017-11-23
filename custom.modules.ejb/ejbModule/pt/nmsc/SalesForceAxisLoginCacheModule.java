@@ -18,11 +18,11 @@ import java.util.Calendar;
 
 import javax.annotation.PostConstruct;
 import javax.ejb.EJB;
-//import javax.ejb.Local;
-//import javax.ejb.LocalHome;
-//import javax.ejb.Remote;
-//import javax.ejb.RemoteHome;
-//import javax.ejb.Stateless;
+import javax.ejb.Local;
+import javax.ejb.LocalHome;
+import javax.ejb.Remote;
+import javax.ejb.RemoteHome;
+import javax.ejb.Stateless;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 //Add SAP_XIAF SC DC's to adapter EJB DC, as it contains the needed dependencies
@@ -36,10 +36,10 @@ import com.sap.aii.af.lib.mp.module.Module;
 import com.sap.aii.af.lib.mp.module.ModuleContext;
 import com.sap.aii.af.lib.mp.module.ModuleData;
 import com.sap.aii.af.lib.mp.module.ModuleException;
-//import com.sap.aii.af.lib.mp.module.ModuleHome;
-//import com.sap.aii.af.lib.mp.module.ModuleLocal;
-//import com.sap.aii.af.lib.mp.module.ModuleLocalHome;
-//import com.sap.aii.af.lib.mp.module.ModuleRemote;
+import com.sap.aii.af.lib.mp.module.ModuleHome;
+import com.sap.aii.af.lib.mp.module.ModuleLocal;
+import com.sap.aii.af.lib.mp.module.ModuleLocalHome;
+import com.sap.aii.af.lib.mp.module.ModuleRemote;
 import com.sap.aii.mapping.lookup.Channel;
 import com.sap.aii.mapping.lookup.LookupService;
 import com.sap.aii.mapping.lookup.Payload;
@@ -56,12 +56,11 @@ import pt.nmsc.jpa.SFLoginEntity;
 /**
 * Session Bean implementation class SalesForceAxisLoginCacheModule
 */
-// Info in descriptor ejb-jar.xml
-//@Stateless(name = "SalesForceAxisLoginCacheModule")
-//@Local(value = {ModuleLocal.class})
-//@Remote(value = {ModuleRemote.class})
-//@LocalHome(value = ModuleLocalHome.class)
-//@RemoteHome(value = ModuleHome.class)
+@Stateless(name = "SalesForceAxisLoginCacheModule")
+@Local(value = {ModuleLocal.class})
+@Remote(value = {ModuleRemote.class})
+@LocalHome(value = ModuleLocalHome.class)
+@RemoteHome(value = ModuleHome.class)
 public class SalesForceAxisLoginCacheModule implements Module {
 
 	// Axis properties
